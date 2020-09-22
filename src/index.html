@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="icon" href="devchallenges.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <title>Checkout Page Challenge</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Checkout</h1>
+      </header>
+      <main>
+        <section class="basket">
+          <div class="basket-item">
+            <img class="basket-item--image" src="assets/images/photo1.jpg" alt="Backbag" />
+            <div class="basket-item--details">
+              <p class="basket-item--name">Vintage Backbag</p>
+              <p class="basket-item--price">$54.99<span class="original-price">$94.99</span></p>
+              <div class="quantity-control">
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+              </div>
+            </div>
+          </div>
+          <div class="basket-item">
+            <img class="basket-item--image" src="assets/images/photo2.jpg" alt="Shoes" />
+            <div class="basket-item--details">
+              <p class="basket-item--name">Levi Shoes</p>
+              <p class="basket-item--price">$74.99<span class="original-price">$124.99</span></p>
+              <div class="quantity-control">
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+              </div>
+            </div>
+          </div>
+          <div class="shipping">
+            <span>Shipping</span>
+            <span>$19</span>
+          </div>
+          <div class="total">
+            <span>Total</span>
+            <span>$148.98</span>
+          </div>
+        </section>
+        <section class="details">
+          <form>
+            <div class="contact-details">
+              <h2 class="section-header">Contact information</h2>
+              <div class="details--control">
+                <label for="email">Email</label>
+                <div class="form-control">
+                  <span><i class="material-icons">email</i></span>
+                  <input id="email" type="text" placeholder="Enter your email..." />
+                </div>
+              </div>
+              <div class="details--control">
+                <label for="phone">Phone</label>
+                <div class="form-control">
+                  <span><i class="material-icons">call</i></span>
+                  <input id="phone" type="text" placeholder="Enter your phone number..." />
+                </div>
+              </div>
+            </div>
+            <div class="shipping-details">
+              <h2 class="section-header">Shipping address</h2>
+              <div class="details--control">
+                <label for="fullname">Full name</label>
+                <div class="form-control">
+                  <span><i class="material-icons">account_circle</i></span>
+                  <input id="fullname" type="text" placeholder="Enter your full name..." />
+                </div>
+              </div>
+              <div class="details--control">
+                <label for="address">Address</label>
+                <div class="form-control">
+                  <span><i class="material-icons">home</i></span>
+                  <input id="address" type="text" placeholder="Enter your address..." />
+                </div>
+              </div>
+              <div class="details--control">
+                <label for="city">City</label>
+                <div class="form-control">
+                  <span><i class="material-icons">location_city</i></span>
+                  <input id="city" type="text" placeholder="Enter your city..." />
+                </div>
+              </div>
+              <div class="details--control">
+                <label for="country">Country</label>
+                <div class="form-control">
+                  <span><i class="material-icons">location_city</i></span>
+                  <input id="country" type="text" placeholder="Enter your country..." />
+                </div>
+              </div>
+              <div class="details--control">
+                <label for="postcode">Postal code</label>
+                <div class="form-control">
+                  <span><i class="material-icons">markunread_mailbox</i></span>
+                  <input id="postcode" type="text" placeholder="Enter your post code ..." />
+                </div>
+              </div>
+            </div>
+            <div class="form-control">
+              <label for="saveInfo">
+                <input id="saveInfo" type="checkbox" name="saveInfo" />
+                <span>Save this information for next time</span>
+              </label>
+            </div>
+            <div class="pull-right">
+              <button class="btn">Continue</button>
+            </div>
+          </form>
+        </section>
+      </main>
+      <footer>
+        <p class="page-footer">Paul Terry @ DevChallenges.io</p>
+      </footer>
+    </div>
+  </body>
+</html>
+
+<!-- email -->
+<!-- call -->
+<!-- account_circle -->
+<!-- home -->
+<!-- location_city (city) -->
+<!-- location_city (country) -->
+<!-- markunread_mailbox -->

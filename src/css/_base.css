@@ -1,0 +1,53 @@
+:root {
+  --font-size-10: 0.7142857142857143em;
+  --font-size-12: 0.8571428571428571em;
+  --font-size-14: 1em;
+  --font-size-16: 1.1428571428571428em;
+  --font-size-18: 1.2857142857142858em;
+  --font-size-24: 1.7142857142857142em;
+  --font-size-36: 2.5714285714285716em;
+  --gray-1: #333333;
+  --gray-2: #4f4f4f;
+  --gray-3: #828282;
+  --gray-4: #4e5150;
+  --gray-5: #a9a9a9;
+  --gray-6: #f2f2f2;
+  --orange: #f2994a;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--gray-4);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+h1,
+h2 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.container {
+  padding: 0 1em;
+  margin: 0 auto;
+  max-width: 960px;
+}
