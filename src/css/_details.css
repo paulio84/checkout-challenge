@@ -22,3 +22,15 @@
 .saveInfo input {
   margin-right: 0.8rem;
 }
+
+@media only screen and (min-width: 1024px) {
+  .details--header {
+    font-size: var(--font-size-18);
+  }
+  .contact-details {
+    margin-bottom: 5.8rem;
+  }
+  .saveInfo {
+    font-size: var(--font-size-12);
+  }
+}

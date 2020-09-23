@@ -20,6 +20,7 @@
   flex-direction: column;
   flex-grow: 1;
   margin-left: 2rem;
+  text-align: right;
 }
 
 .basket-item-details--name {
@@ -54,4 +55,13 @@
 
 .basket-total {
   padding-bottom: 0;
+}
+
+@media only screen and (min-width: 1024px) {
+  .basket {
+    order: 1;
+  }
+  .basket-shipping {
+    margin-top: 9.5rem;
+  }
 }

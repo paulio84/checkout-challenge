@@ -14,8 +14,9 @@
   border-radius: 12px;
   display: flex;
   justify-content: space-between;
-  max-width: 120px;
   padding: 1em 0.7142857142857143em;
+  margin: 0 0 0 auto;
+  width: 120px;
 }
 
 .u-quantity-control button {
@@ -71,4 +72,12 @@
 
 .u-pull-right {
   text-align: right;
+}
+
+@media only screen and (min-width: 1024px) {
+  .u-content {
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
