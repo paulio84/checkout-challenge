@@ -3,6 +3,22 @@
   margin-bottom: 1.2rem;
 }
 
+.details--control {
+  margin-bottom: 1.6rem;
+}
+
 .contact-details {
   margin-bottom: 4.5rem;
+}
+
+.saveInfo {
+  align-items: center;
+  color: var(--gray-2);
+  display: flex;
+  font-size: var(--font-size-10);
+  margin-bottom: 2rem;
+}
+
+.saveInfo input {
+  margin-right: 0.8rem;
 }
