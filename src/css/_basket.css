@@ -61,7 +61,20 @@
   .basket {
     order: 1;
   }
+  .basket-item-details--name {
+    font-size: var(--font-size-16);
+  }
+  .basket-item-details--price {
+    font-size: var(--font-size-16);
+  }
+  .basket-item-details--original-price {
+    font-size: var(--font-size-12);
+  }
   .basket-shipping {
     margin-top: 9.5rem;
+  }
+  .basket-shipping--label,
+  .basket-total--label {
+    font-size: var(--font-size-18);
   }
 }
