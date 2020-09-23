@@ -50,6 +50,15 @@
   width: 100%;
 }
 
+.u-input-control select {
+  border: 1px solid var(--gray-3);
+  border-radius: 12px;
+  outline: none;
+  padding: 1.2rem;
+  padding-left: 4rem;
+  width: 100%;
+}
+
 .u-input-control span {
   align-items: center;
   display: flex;
