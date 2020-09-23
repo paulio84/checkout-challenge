@@ -1,0 +1,10 @@
+.btn {
+  background-color: var(--orange);
+  border-radius: 12px;
+  border-width: 0;
+  color: white;
+  font-size: var(--font-size-16);
+  font-weight: 600;
+  outline: none;
+  padding: 1.7rem 4.5rem;
+}
