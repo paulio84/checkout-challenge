@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 @import '_base.css';
+@import '_utilities.css';
 @import '_header.css';
+@import '_basket.css';

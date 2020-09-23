@@ -1,0 +1,29 @@
+.u-container {
+  padding: 0 1em;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.u-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.u-quantity-control {
+  border: 1px solid var(--gray-3);
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 120px;
+  padding: 1em 0.7142857142857143em;
+}
+
+.u-quantity-control button {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+}
+
+.u-quantity-control span {
+  font-size: var(--font-size-16);
+}
